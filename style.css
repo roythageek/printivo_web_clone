@@ -1,0 +1,282 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+header{
+  display:flex;
+  justify-content: center;
+  margin-top:15px;
+  width:90%;
+  margin-left:30px;
+}
+.logo-text{
+  display:flex;
+  gap:2em;
+  margin-right:50px;
+  font-size:13px;
+}
+.call{
+  margin-right:-195px;
+}
+.call span{
+  color:blue;
+}
+.naija{
+  display:flex;
+  list-style-type:none;
+  gap:80px;
+  margin-left:230px;
+}
+.naija-btn{
+  border:1px solid rgb(214, 194, 194);
+  background-color: white;
+  padding:7px;
+  margin-bottom:10px;
+  border-radius:25px;
+}
+.hero{
+  width:100%;
+  height:80vh;
+  background-color: rgb(236,232,217);
+  margin-top:5px;
+}
+.hero-section{
+  display:flex;
+  justify-content: space-between;
+  padding-top:20px;
+  width:80%;
+  margin-left:120px;
+}
+
+ul{
+  display:flex;
+  gap:20px;
+  list-style-type: none;
+  margin-right:20px;
+}
+.quality{
+  display:flex;
+  justify-content: space-between;
+  margin-top:90px;
+}
+.quality-text{
+  margin-left:110px;
+}
+.quality-text h1{
+  font-size:4em;
+}
+.quality-text h3{
+  font-size:1.5em;
+  padding-left:13px;
+}
+.quality-text p{
+  padding-left:13px;
+  padding-top:20px;
+  padding-bottom:5px;
+}
+.quality-text input{
+  color:black;
+  width:600px;
+  height:70px;
+  border:1px solid white;
+  padding:20px;
+}
+.quality-image img{
+  padding-bottom:110px;
+}
+.letters{
+  width:100%;
+  height:10vh;
+  background-color:pink;
+  margin-top:-120px;
+}
+.letters p{
+  padding:20px;
+}
+.product-text{
+  margin-top:100px;
+  gap:600px;
+  display:flex;
+  justify-content:space-around;
+}
+.product-text div a{
+  color:rgb(147, 3, 3);
+}
+.product-card{
+  display:flex;
+  justify-content: center;
+  gap:45px;
+  margin-top:30px;
+}
+.product-card div{
+  width:250px;
+  height:350px;
+  border:1px solid rgb(245, 240, 240);
+  box-shadow:1px 1px 1px grey;
+}
+.product-card div h3,h6,h4{
+  margin-left:10px;
+}
+.btn{
+  border:1px solid brown;
+  background-color: rgb(196, 27, 27);
+  color:white;
+  margin-left:10px;
+  height:30px;
+  width:200px;
+}
+
+.product-card2 {
+  display:flex;
+  justify-content: center;
+  gap: 45px;
+  margin-top:20px;
+}
+.product-card2 div{
+  width:250px;
+  height:350px;
+  border:1px solid white;
+  box-shadow:1px 1px 1px grey;
+}
+
+.product-card2 div h3,h6,h4{
+  margin-left:10px;
+}
+.btn{
+  border:1px solid brown;
+  background-color: rgb(196, 27, 27);
+  color:white;
+  margin-left:10px;
+  height:30px;
+  width:200px;
+}
+.product-card3 {
+  display:flex;
+  justify-content: center;
+  gap: 45px;
+  margin-top:20px;
+}
+.product-card3 div{
+  width:250px;
+  height:350px;
+  border:1px solid white;
+  box-shadow:1px 1px 1px grey;
+}
+
+.product-card3 div h3,h6,h4{
+  margin-left:10px;
+}
+.btn{
+  border:1px solid brown;
+  background-color: rgb(196, 27, 27);
+  color:white;
+  margin-left:10px;
+  height:30px;
+  width:200px;
+}
+.product-card4 {
+  display:flex;
+  justify-content: flex-start;
+  gap: 45px;
+  margin-top:20px;
+  margin-left:65px;
+}
+.product-card4 div{
+  width:250px;
+  height:350px;
+  border:1px solid white;
+  box-shadow:1px 1px 1px grey;
+}
+
+.product-card4 div h3,h6,h4{
+  margin-left:10px;
+}
+.btn{
+  border:1px solid brown;
+  background-color: rgb(196, 27, 27);
+  color:white;
+  margin-left:10px;
+  height:30px;
+  width:200px;
+}
+.printshop{
+  margin-top:60px;
+  margin-left:70px;
+}
+.printshop p{
+  width:400px;
+}
+.printshop img{
+  margin-top:20px;
+}
+#customers{
+  background-color:lightblue;
+  height:70vh;
+  padding:40px;
+  margin-top:50px;
+}
+#customers h1{
+  margin-left:30px;
+  padding-bottom:40px;
+}
+.customers{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+}
+.customers div{
+  width:350px;
+  height:100px;
+  border:1px solid white;
+  background-color: white;
+}
+#count{
+  background-color:white;
+  height:70vh;
+  padding:40px;
+  margin-top:50px;
+}
+#count h1{
+  margin-left:30px;
+  padding-bottom:40px;
+}
+.count-container{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+}
+.card{
+  width:350px;
+  height:200px;
+  border:1px solid white;
+  background-color: white;
+}
+
+#noticed{
+  background-color: rgb(243, 237, 237);
+  height:40vh;
+  padding:40px;
+  margin-top:-40px;
+}
+.noticed-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:60px;
+  padding-top:70px;
+}
+footer{
+  background-color: rgb(13, 13, 61);
+  color:white;
+  height:70vh;
+
+}
+.footer-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:100px;
+  padding-top:90px;
+  padding-bottom:30px;
+}
